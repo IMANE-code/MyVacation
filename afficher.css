@@ -1,0 +1,117 @@
+body {
+    background-image: url('img/image_base.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    font: normal 14px Roboto, arial, sans-serif;
+    font-family: 'Dancing Script', cursive !important;
+}
+
+nav {
+    overflow: auto;
+}
+
+#notification {
+    display: none;
+    background-color: white;
+    width: 20%;
+    height: cover;
+    float: right;
+    text-align: center;
+    list-style: none;
+}
+
+#notification li {
+    cursor: pointer;
+    background-color: rgb(139, 172, 235);
+}
+
+#h1-welcome {
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    margin: 200px auto;
+    color: white;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    text-align: center;
+    color: #ffffff !important;
+    opacity: 1;
+    /* Firefox */
+    font-size: 18px !important;
+}
+
+#fmr,
+#fmr2 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.form {
+    margin: 20px auto;
+    width: 50%;
+    background-color: rgba(88, 88, 88, 0.897);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border-color: #d2d2d2;
+    border-width: 5px;
+    color: white;
+    box-shadow: 0 1px 0 #cfcfcf;
+}
+
+.form-control {
+    background: transparent !important;
+    color: white !important;
+    font-size: 18px !important;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white !important;
+}
+
+h4 {
+    border: 0 solid #fff;
+    border-bottom-width: 1px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.close:hover {
+    background-color: red;
+    outline: 0;
+}
+
+
+.text-white {
+    color: white !important;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.footer p {
+    font-size: 18px;
+}
+
+.btn-nav {
+    padding: 10px;
+}
+
+.modal-body {
+    overflow-x: auto;
+}
